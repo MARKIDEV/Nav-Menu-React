@@ -1,0 +1,53 @@
+.logo{
+    width: 268px;
+    height: 33px;   
+}
+.App {
+    display: flex;
+    justify-content: space-between;
+    padding:15px 130px;
+    background-color: white;
+    opacity:0.95;
+    position: sticky;
+    top: 0;
+}
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width:250px;
+  padding-top:15px;
+  list-style: none;
+}
+.nav-li{
+  list-style: none;
+  color:#747474;
+  font-size: 15px;
+  line-height: 1;
+  padding-bottom: 20px;
+  position:relative;
+}
+/* .dropdown-list{
+  position:relative;
+} */
+.dropdown-list{
+  position:absolute;
+  display: none;
+  flex-direction:column;
+  list-style: none;
+  top:25px;
+  margin-left: -80px;
+  box-shadow: 10px 5px 5px lightgrey, -10px 5px 5px lightgrey;
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom:5px;
+  width: 250px;
+
+}
+li:hover .dropdown-list{
+  display:flex;
+  
+}
+li:hover {
+  color:#00b39b
+}
